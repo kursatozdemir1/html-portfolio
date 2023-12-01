@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portföy</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }    
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header style="background-color: #333; color: white; text-align: center; padding: 1em;">
+        <h1 style="color: white;">Kürşat Özdemir</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section>
+        <h2>Hakkımda</h2>
+        <img src="Resima.jpg" alt="Kürşat Profil Fotoğrafı" style="width: 130px; height: 130px; border-radius: 80%; margin-right: 20px; float: left;">
+        <p>Merhaba! ben Kürşat. Web geliştirme konusunda deneyimli bir profesyonelim. HTML, CSS ve JavaScript gibi teknolojileri kullanarak modern ve etkileyici web siteleri oluşturuyorum.<a href="./egitimbilgileri.html">Eğitim Bilgilerim için tıklayın.</a></p>
+    </section>
+    
+
+
+    <section>
+        <h2>İletişim Bilgileri</h2>
+        
+        <p><strong>E-Posta Adresi:</strong> ozdemirkursat34@gmail.com</p>
+        <p><strong>Doğum Tarihi:</strong> 28/02/1998</p>
+        <p><strong>Telefon:</strong> +90 (554) 153 36 61</p>
+        <p><strong>Adres:</strong> Türkiye - İstanbul(Asya) - Ümraniye</p>
+        
+        <h2>Sosyal Medya</h2>
+        
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kursatozdemir/" target="_blank">Kürşat Özdemir</a></p>
+        <!-- Diğer sosyal medya hesaplarını ekleyebilirsiniz -->
+    </section>
+    <section>
+        <h2>Özel Bilgiler</h2>
+        
+        <p><strong>Cinsiyet:</strong> Erkek</p>
+        <p><strong>Uyruk:</strong> Türkiye Cumhuriyeti</p>
+        <p><strong>Sürücü Belgesi:</strong> B</p>
+        <p><strong>Askerlik Durumu:</strong> Tecilli (31.12.2027)</p>
+        <!-- Diğer özel bilgileri ekleyebilirsiniz -->
+    </section>
+    <section>
+    <div>
+        <strong>İngilizce:</strong>
+        <div class="language-level" style="background-color: #5cb85c;"></div> <!-- Orta seviye -->
+    </div>
+    <!-- Diğer dilleri ve seviyeleri ekleyebilirsiniz -->
+</section>
+
+<style>
+    .language-level {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+</style>
+
+    <section>
+        <h2>Projelerim</h2>
+        <div class="project">
+            <h3>Proje 1</h3>
+            <p>Açıklama ve detaylar...</p>
+        </div>
+        <div class="project">
+            <h3>Proje 2</h3>
+            <p>Açıklama ve detaylar...</p>
+        </div>
+        <!-- Diğer projeleri ekleyebilirsiniz -->
+    </section>
+
+    <footer>
+        &copy; 2023 Ramazan Kürşat Özdemir
+    </footer>
+    <section>
+        <h2>İletişim</h2>
+        <form>
+            <label for="name">Ad Soyad:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-Posta:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+</body>
+</html>

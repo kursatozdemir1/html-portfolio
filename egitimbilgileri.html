@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eğitim Bilgileri</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Sayfa yazı fontu belirleniyor */
+            background-color: #f4f4f4; /* Sayfa arka plan rengi belirleniyor */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Kutu modeli, içerik kutusu ile kenarlık ve dolgu dahil edilir */
+            display: flex; /* Sayfa içindeki elemanların yan yana sıralanması için flex kullanılıyor */
+        }
+
+        .section {
+            flex: 1; /* İki bölümün eşit genişlikte olması sağlanıyor */
+            padding: 20px;
+            margin: 20px;
+            background-color: white; /* Her bölümün arka plan rengi belirleniyor */
+            border-radius: 5px; /* Köşeleri yuvarlamak için */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti ekleniyor */
+        }
+
+        h2, h3 {
+            color: #333; /* Başlık renkleri belirleniyor */
+        }
+
+        .education-item {
+            margin-bottom: 20px; /* Eğitim bilgileri arasında boşluk bırakılıyor */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section">
+        <h2>Anadolu Üniversitesi</h2>
+        <div class="education-item">
+            <h3>Fakülte</h3>
+            <p>Açıköğretim Fakültesi</p>
+        </div>
+        <div class="education-item">
+            <h3>Bölüm</h3>
+            <p>MIS - Yönetim Bilişim Sistemleri</p>
+        </div>
+        <div class="education-item">
+            <h3>Başlangıç Tarihi</h3>
+            <p>09.2019</p>
+        </div>
+        <div class="education-item">
+            <h3>Bitiş Tarihi</h3>
+            <p>05.2022</p>
+        </div>
+        <!-- Diğer bilgileri ekleyebilirsiniz -->
+    </div>
+
+    <div class="section">
+        <h2>Sakarya Üniversitesi</h2>
+        <div class="education-item">
+            <h3>Fakülte</h3>
+            <p>Teknoloji Fakültesi</p>
+        </div>
+        <div class="education-item">
+            <h3>Bölüm</h3>
+            <p>Bilgisayar Programcılığı</p>
+        </div>
+        <div class="education-item">
+            <h3>Başlangıç Tarihi</h3>
+            <p>10.2017</p>
+        </div>
+        <div class="education-item">
+            <h3>Bitiş Tarihi</h3>
+            <p>05.2019</p>
+        </div>
+        <!-- Diğer bilgileri ekleyebilirsiniz -->
+    </div>
+
+    <div class="section">
+        <h2>Lise</h2>
+        <div class="education-item">
+            <h3>Lise Adı</h3>
+            <p>Ümraniye Anadolu Meslek Lisesi</p>
+        </div>
+        <div class="education-item">
+            <h3>Bölüm</h3>
+            <p>Veri Tabanı Programcılığı</p>
+        </div>
+        <div class="education-item">
+            <h3>Bitiş Tarihi</h3>
+            <p>06.2017</p>
+        </div>
+        <div class="education-item">
+            <h3>Öğretim Tipi</h3>
+            <p>Mesleki ve Teknik Anadolu Lisesi</p>
+        </div>
+        <!-- Diğer bilgileri ekleyebilirsiniz -->
+    </div>
+
+    <!-- Diğer eğitim bilgilerini ekleyebilirsiniz -->
+    <button onclick="goBack()">Geri Dön</button>
+
+    <script>
+        function goBack() {
+            window.history.back(); // Tarayıcı geçmişinde bir adım geri git
+        }
+    </script>
+</body>
+</html>
